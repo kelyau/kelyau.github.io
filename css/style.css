@@ -233,9 +233,9 @@ a {
 #container .left-col .overlay {
   width: 100%;
   height: 180px;
-  background-color: #000;
   position: absolute;
   opacity: 0.7;
+  background-image: url("../img/avatar-bg.jpg");
 }
 #container .left-col .intrude-less {
   width: 76%;
