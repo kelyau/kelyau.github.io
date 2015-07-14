@@ -31,6 +31,7 @@
 
 
     <div id="sidebar">
+      <div class="check-menu-icon"></div>
       <nav>
         <ul>
           <li><a href="/">Home</a></li>
@@ -61,14 +62,17 @@
 
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-  <script src="/assets/js/jquery.mobilemenu.min.js"></script>
-
-  <script>
-    $(document).ready(function(){
-      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+  <script type="text/javascript">
+  (function($){
+    $(".check-menu-icon").on("click", function() {
+      if($("#sidebar nav").hasClass("open")){
+        $("#sidebar nav").removeClass("open");
+      }else{
+        $("#sidebar nav").addClass("open");
+      }
     });
+  })(jQuery);
   </script>
-
 
 
 </body>
