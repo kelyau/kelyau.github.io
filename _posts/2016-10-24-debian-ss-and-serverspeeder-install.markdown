@@ -8,7 +8,7 @@ categories: shadowsocks linux
 ### 1. shadowsocks 安装
 https://github.com/teddysun/shadowsocks_install  
 安装shadowssocks go 版本, 脚本安装完后自动运行。配置文件位置安装在 [/etc/shadowsocks/config.json];
-{% lighlight javascript %}
+
 /***********************************
 * single user
 ************************************************/
@@ -42,7 +42,7 @@ https://github.com/teddysun/shadowsocks_install
     "method":"aes-256-cfb",
     "fast_open": false
 }
-{% endhighlight %}
+
 ### 2.锐速安装
 安装shadowssocks后，进行测试速度大概在120k左右，果断安装加速，速度瞬间飚到4m。
 锐速破解版 
