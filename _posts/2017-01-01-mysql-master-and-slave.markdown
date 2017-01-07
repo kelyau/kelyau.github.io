@@ -27,6 +27,7 @@ mysql>grant replication slave on *.* to 'sync-2'@'%' identified by '123456';
 ```
 mysql>show master status; //可以查看主mysql状态
 ```
+
 ### 2. 从设置（slave）
 修改mysql配置文件 my.conf，两个从节点配置方式都一样。
 
@@ -41,6 +42,7 @@ mysql>change master to master_host='192.168.145.222',master_user='sync-1',master
 mysql>start slave //启动
 mysql>show slave status\G //查询状态，Slave_IO_Running 和Slave_IO_Running都为yes表示成功
 ```
+
 ### 3. 设置中的出现的问题
 #### Last_Errno: 1146
 设置出从的时候，我的主mysql已经有一张表了，当时创建表的binlog二进制日志就没有记录，从mysql无法写入数据，这时候只有手动导入数据库文件到从mysql中；
