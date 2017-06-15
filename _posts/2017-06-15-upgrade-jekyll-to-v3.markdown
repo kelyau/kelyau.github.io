@@ -21,4 +21,8 @@ tags: jekyll
 这里我找了一个替代插件，"jekyll-paginate-v2"
 > gem install jekyll-paginate-v2
 
+### 修复jekyll-paginate-v2引发的github pages无法生成首页的问题
+
+重新看了下官方文档，将根目录下的index.md 修改为 index.html
+
 [https://github.com/sverrirs/jekyll-paginate-v2]
