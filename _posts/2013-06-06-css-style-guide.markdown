@@ -2,7 +2,8 @@
 layout: post
 title:  "css style guide"
 date:   2013-06-06 17:06:25
-categories: css
+categories: technique
+tags: css
 ---
 
 ###CSS文件的分类和引用顺序

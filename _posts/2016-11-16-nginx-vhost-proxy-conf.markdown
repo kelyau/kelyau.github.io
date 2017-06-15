@@ -2,7 +2,8 @@
 layout: post
 title:  "nginx vhost proxy config"
 date:   2016-11-16 22:06:25
-categories: nginx linux server
+categories: technique
+tags: nginx,linux,server
 ---
 
 

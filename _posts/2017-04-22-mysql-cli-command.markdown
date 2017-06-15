@@ -2,7 +2,8 @@
 layout: post
 title:  "mysql 常用命令解读"
 date:   2017-04-22 10:38:22
-categories: linux mysql
+categories: technique
+tags: linux,mysql
 ---
 
 - $ mysql -u root -p;

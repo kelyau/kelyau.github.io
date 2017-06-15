@@ -2,7 +2,8 @@
 layout: post
 title:  "mysql setting master and slave"
 date:   2017-01-07 21:38:22
-categories: linux mysql
+categories: technique
+tags: linux,mysql
 ---
 
 ### 1. 主设置（master）
@@ -15,6 +16,7 @@ log-bin=/var/lib/mysql/mysql-bin  //log-bin的日志文件，主从备份就是�
 #binlog-ignore-db=mysql2 #不需要备份的数据库名，如果备份多个数据库，重复设置这 个选项即可
 #log-slave-updates=1 #这个参数当从库又作为其他从库的主库时一定要加上，否则不会给更新的记录写到binglog里二进制文件里
 #slave-skip-errors=1 #是跳过错误，继续执行复制操作(可选)
+
 ```
 在主mysql中增加2个用来同步的账号
 
@@ -24,6 +26,7 @@ mysql>grant replication slave on *.* to 'sync-2'@'%' identified by '123456';
 
 ```
 重启msql
+
 ```
 mysql>show master status; //可以查看主mysql状态
 ```
