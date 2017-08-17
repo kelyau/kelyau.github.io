@@ -2,7 +2,8 @@
 layout: post
 title:  "react-native android build"
 date:   2016-05-11 10:38:15
-categories: javascript react-native app
+categories: technique
+tags: javascript,react-native,app
 ---
 
 ### 1. 权限不足
