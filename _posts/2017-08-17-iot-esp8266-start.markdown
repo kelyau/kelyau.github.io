@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "iot 入门，esp8266wifi芯片研究"
-date:   2017-04-22 10:38:22
-categories: iot esp8266
+date:   2017-08-22 10:38:22
+categories: technique
+tags: [iot, esp8266]
 ---
 
 > esp8266是一款wifi芯片，非常适合我们前端用来做物联网入门的研究。
