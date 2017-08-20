@@ -3,7 +3,7 @@ layout: post
 title:  "css hack技巧"
 date:   2014-02-18 0:01:25
 categories: technique
-tags: css
+tags: [css]
 ---
 
 * Firefox

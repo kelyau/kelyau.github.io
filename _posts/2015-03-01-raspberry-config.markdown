@@ -3,7 +3,7 @@ layout: post
 title:  "树莓派配置"
 date:   2015-03-01 10:46:25
 categories: technique
-tags: raspberry,Linux
+tags: [raspberry,Linux]
 ---
 
 ### 系统语言配置

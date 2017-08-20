@@ -3,7 +3,7 @@ layout: post
 title:  "install rethinkdb on raspberry-pi"
 date:   2017-07-07 23:47:09 +0800
 categories: technique
-tags: rethinkdb,raspberry-pi
+tags: [rethinkdb,raspberry-pi]
 ---
 
 raspberry-pi 安装 rethinkdb 需要进行编译安装

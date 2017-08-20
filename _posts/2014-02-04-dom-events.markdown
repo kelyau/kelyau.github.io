@@ -3,7 +3,7 @@ layout: post
 title:  "dom事件流"
 date:   2014-02-04 1:06:25
 categories: technique
-tags: javascript,dom
+tags: [javascript,dom]
 ---
 
 ### 标准事件流

@@ -3,7 +3,7 @@ layout: post
 title:  "debian shadowsocks and serverspeeder install"
 date:   2016-10-24 11:38:22
 categories: technique
-tags: shadowsocks,linux
+tags: [shadowsocks,linux]
 ---
 
 ### 1. shadowsocks 安装

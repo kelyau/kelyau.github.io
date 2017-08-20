@@ -3,7 +3,7 @@ layout: post
 title:  "upgrade Jekyll v3"
 date:   2017-06-15 13:47:09 +0800
 categories: technique
-tags: jekyll
+tags: [jekyll]
 ---
 
 升级jekyll到3.3版本，从2.x版本到3.x版本据说是提高了生成静态页面的速度，无奈我的文章太少无法享受到。

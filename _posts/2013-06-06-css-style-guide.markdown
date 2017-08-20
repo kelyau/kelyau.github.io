@@ -3,7 +3,7 @@ layout: post
 title:  "css style guide"
 date:   2013-06-06 17:06:25
 categories: technique
-tags: css
+tags: [css]
 ---
 
 ###CSS文件的分类和引用顺序

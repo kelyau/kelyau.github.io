@@ -3,7 +3,7 @@ layout: post
 title:  "mysql setting master and slave"
 date:   2017-01-07 21:38:22
 categories: technique
-tags: linux,mysql
+tags: [linux,mysql]
 ---
 
 ### 1. 主设置（master）
