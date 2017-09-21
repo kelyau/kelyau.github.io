@@ -22,7 +22,9 @@
   </head>
   <body class="cover-bg">
   <script>
-    var $q = document.querySelector
+    var $q = function(ele){
+      return document.querySelector(ele)
+    }
     var $html = $q('html')
     (function(){
       var webpTestUrl = 'data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAAwA0JaQAA3AA/vuUAAA='
