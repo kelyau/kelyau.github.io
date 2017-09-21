@@ -4,8 +4,44 @@
     <title>ken's pages</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <style>
+      html, body {
+        padding: 0;
+        margin: 0;
+      }
+      .webp .cover-bg {
+        background-image: url("http://cdn.yinsunz.com/image_s1/brunch20170921.jpg");
+      }
+      .no-webp .cover-bg {
+        background-image: url("http://cdn.yinsunz.com/image_s1/brunch20170921.webp");
+      }
+      .cover-bg {
+        background-size: cover;
+      }
+    </style>
   </head>
-  <body>
-    <h1>welcome</h1>
+  <body class="cover-bg">
+  <script>
+    var $q = document.querySelector
+    var $html = $q('html')
+    (function(){
+      var webpTestUrl = 'data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAAwA0JaQAA3AA/vuUAAA='
+      var img = new Image()
+      function addResult(event) {
+        if (event && event.type == 'load'){
+          if(img.width == 1){
+            $html.className = 'webp'
+          }else{
+            $html.className = 'no-webp'
+          }
+        }else{
+          $html.className = 'no-webp'
+        }
+      }
+      img.onerror = addResult
+      img.onload = addResult
+      img.src = webpTestUrl
+    })()
+  </script>
   </body>
 </html>
